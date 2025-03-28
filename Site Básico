@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Básico</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; text-align: center; }
+        header { background: #007bff; color: white; padding: 10px; font-size: 24px; }
+        nav { margin: 20px; }
+        nav a { margin: 10px; text-decoration: none; color: #007bff; font-weight: bold; }
+        section { margin-top: 20px; }
+        footer { margin-top: 30px; background: #f1f1f1; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        Meu Site Básico
+    </header>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="home">
+        <h1>Bem-vindo!</h1>
+        <p>Este é um site HTML básico.</p>
+    </section>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Esta é a seção sobre.</p>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: exemplo@email.com</p>
+    </section>
+    <footer>
+        &copy; 2025 Meu Site Básico
+    </footer>
+</body>
+</html>
